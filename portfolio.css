@@ -1114,6 +1114,7 @@ form {
   margin: 50px auto;
   background-color: aliceblue;
   overflow-x: hidden;
+  color: black;
 }
 
 .dont {
