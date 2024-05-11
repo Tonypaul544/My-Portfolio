@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
   word-spacing: 6px;
   scrollbar-width: none;
 }
@@ -888,6 +889,7 @@ form {
     background-color: aliceblue;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
   }
 
 
