@@ -292,8 +292,8 @@ h2 {
 }
 
 .three-3, .five-5, .four4 {
-  min-width: 450px;
-  background-color: aliceblue;
+  min-width: 480px;
+  background-color: rgb(211, 229, 226);
   padding: 15px 23px;
   border-radius: 15px;
   margin: 50px 0;
@@ -1083,7 +1083,7 @@ form {
   margin: auto;
 }
 
-/* .four4 {
+/*.four4 {
   margin: auto;
   align-items: center;
   width: 85%;
@@ -1092,9 +1092,9 @@ form {
   align-items: center;
   background-color: chocolate;
   box-shadow: 0 0 8px -1px;
-} */
+} 
 
-/* .six-one {
+.six-one {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -1110,8 +1110,10 @@ form {
   padding: 15px;
   border-radius: 15px;
   margin: 50px 0;
-  width: 85%;
+  width: 80%;
   margin: 50px auto;
+  background-color: aliceblue;
+  overflow-x: hidden;
 }
 
 .dont {
