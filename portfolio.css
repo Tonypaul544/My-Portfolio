@@ -991,7 +991,7 @@ form {
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 18em auto;
+  padding: 10em auto;
   padding: 30px 10px;
   box-sizing: border-box;
   box-sizing: border-box;
@@ -1000,7 +1000,7 @@ form {
 
 .three-3, .five-5, .four4 {
   background-color: rgb(83, 195, 178);
-  color: white;
+  color: black;
   font-size: 15px;
   padding: 15px;
   height: 600px;
@@ -1030,12 +1030,12 @@ form {
   flex-direction: column;
   margin: auto;
   align-items: center;
-  margin-top: 10em;
+  margin-top: 15em;
   height: 80px;
 }
 
 .left-two {
-  height: 400px;
+  height: 330px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -1110,7 +1110,7 @@ form {
   padding: 15px;
   border-radius: 15px;
   margin: 50px 0;
-  width: 80%;
+  width: 75%;
   margin: 50px auto;
   background-color: aliceblue;
   overflow-x: hidden;
