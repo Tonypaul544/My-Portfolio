@@ -1,23 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Cursive;
-  font-weight: 580;
+  font-family: cursive;
+  font-weight: 600;
   word-spacing: 6px;
   scrollbar-width: none;
+  color: black;
 }
 
 body {
   overflow-y: none;
   margin: 0;
   max-width: 100%;
-  /* background-color: blueviolet; */
   padding: 0;
   overflow-X: hidden;
 }
 
 .top {
-  background-image: radial-gradient(rgb(255, 177, 33), rgb(225, 129, 12), rgb(186, 96, 0));
+  background-image: radial-gradient(rgb(255, 177, 33), rgb(223, 141, 40), rgb(186, 96, 0));
   width: 100%;
   height: 100vh;
   margin-right: 0;
@@ -49,7 +49,7 @@ body {
 .round-color {
   width: 180px;
   height: 180px;
-  background-color: gray;
+  background-color: aliceblue;
   border-radius: 10000px;
   box-shadow: 0 0 22px 1px;
   margin-bottom: 2em;
@@ -74,7 +74,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 50px 0px;
-  font-size: 23px;
+  font-size: 15px;
   gap: 25px;
   align-items: center;
   margin-bottom: -3px;
@@ -88,15 +88,19 @@ body {
 .second-line {
   display: flex;
   flex-direction: column;
-  width: 95%;
-  margin-top: 10rem;
+  width: 100%;
+  padding-top: 3rem;
   height: auto;
   align-items: center;
+  background-color: rgb(215, 246, 216);
+  margin: auto;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .about-me{
   font-size: 44px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -108,7 +112,7 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   /* gap: 20%; */
-  margin: 80px 20px;
+  margin: 30px 20px;
   width: 100%;
   font-size: 20px;
 }
@@ -122,14 +126,15 @@ h2 {
 }
 
 .detail {
-  width: 550px;
+  width: 560px;
   height: 500px;
   padding: 10px;
-  font-size: 27px;
+  font-size: 25px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: auto;
+  margin: 10px;
   /* background-color: aquamarine; */
   align-items: center;
 }
@@ -137,13 +142,15 @@ h2 {
 .one {
   font-weight: 500;
   color: chocolate;
+  font-weight: 550;
 }
 
 .describe {
-  width: 40%;
-  padding: 10px;
+  width: 700px;
+  padding: 2em 50px;
   height: 300px;
   height: 500px;
+  flex: 1;
   line-height: 35px;
   display: flex;
   flex-direction: column;
@@ -191,16 +198,117 @@ h2 {
 
 .resume-section {
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  /* background-color: antiquewhite; */
-  margin: 5em auto;
-  padding: 30px 10px;
+  height: auto;
+  /* background-color: rgb(215, 246, 216); */
+  margin: auto;
+  padding: 5em 30px;
   box-sizing: border-box;
   align-items: center;
 }
 
-.two-2 {
+.resume-container {
+  display: flex;
+  margin: auto;
+  /* align-items: center; */
+  width: fit-content;
+}
+
+.lines-line {
+  width: 100px;
+  height: auto;
+  /* background-color: cornflowerblue; */
+}
+
+.education, .resume {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.education {
+  margin-top: 2em;
+}
+
+.education span {
+  background-color: gray;
+  color: white;
+  border-radius: 12px;
+  padding: 1px 10px;
+}
+
+.edu2 {
+  margin: 0;
+}
+
+
+.line {
+  width: 6px;
+  top: 0;
+  height: 100%;
+  background-color: chocolate;
+  overflow:visible;
+  padding-top: 0px;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+}
+
+.sircle {
+  width: 35px;
+  height: 35px;
+  background-color: chocolate;
+  border-radius: 20px;
+  margin-left: -14px;
+  margin-top: 100px;
+  float:inline-start;
+  align-items: center;
+
+}
+
+.block1 {
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  margin-top: 25%;
+  background-color: aliceblue;
+}
+
+
+
+
+.rsm-content {
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: right;
+  margin: 30px;
+  border-radius: 12px;
+  width: 550px;
+  cursor: pointer;
+}
+
+/* .rsm-content:hover {
+  border-color: rgb(29, 170, 189);
+  transform: initial scaleX();
+  transition: 1s ease-in-out;
+  margin-top: 50px;
+  margin-left: 70px;
+  box-sizing: border-box;
+} */
+
+.rsm2 {
+  opacity: 0;
+}
+
+.right {
+  text-align: left;
+}
+
+
+
+
+
+
+/* .two-2 {
   width: 100%;
   margin: auto;
 }
@@ -211,7 +319,6 @@ h2 {
   flex-direction: column;
   margin: auto;
   align-items: center;
-  /* margin-left: -13%; */
   padding-bottom: 30px;
   height: 200px;
 }
@@ -241,7 +348,6 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: aquamarine; */
   height: 65vh;
   margin: 0 40px;
   position: relative;
@@ -294,7 +400,7 @@ h2 {
 .three-3, .five-5, .four4 {
   min-width: 480px;
   background-color: rgb(211, 229, 226);
-  padding: 15px 23px;
+  padding: 15px;
   border-radius: 15px;
   margin: 50px 0;
   box-shadow: 0 0 5px -1px;
@@ -306,21 +412,21 @@ h2 {
 
 .dont {
   display: none;
-}
+} */
 
 
 
   /* .......SERVICE SECTION....... */
 
   .service-section {
-    background-image: radial-gradient(rgb(255, 177, 33), rgb(225, 129, 12), rgb(186, 96, 0));
+    /* background-color: rgb(215, 246, 216); */
     height: auto;
     max-width: 100%;
     display: flex;
     margin: auto;
     flex-direction: column;
     align-items: center;
-    margin-top: 10em;
+    padding-top: 2em;
     color: white;
     font-weight: 600;
     font-size: 18px;
@@ -369,7 +475,6 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* background-color: aquamarine; */
   align-items: center;
   margin-top: 10em;
   padding: 0;
@@ -392,7 +497,7 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
   height: 98%;
-  margin: auto;
+  margin: 20px 140px;
   /* background-color: white; */
   padding-left: 4.5em;
 }
@@ -462,10 +567,8 @@ h2 {
 
 .horizontal-line-section {
   height: 70%;
-  /* margin-top: 1em; */
   margin-left: 3em;
   margin-bottom: 20em;
-  /* background-color: aliceblue; */
   align-items: center;
 }
 
@@ -475,7 +578,7 @@ h2 {
   border-left: 60% solid rgb(5, 71, 122);
   background-color: gray;
   box-sizing: border-box;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 
 .inline {
@@ -527,7 +630,7 @@ h2 {
 }
 
 .horizontal-line-section {
-  margin-top: 15em;
+  margin-top: 5em;
   position: unset;
   display: flex;
   justify-content: space-between;
@@ -565,7 +668,6 @@ h2 {
 .rule2 {
   width: 40%;
   border-left: 60% solid rgb(159, 1, 1);
-  /* background-color: lightgray; */
 }
 
 
@@ -573,10 +675,11 @@ h2 {
 /* <!-- .....WORK SECTION..... --> */
 
 .work-section {
+  margin-top: -20em;
   height: auto;
   width: 100%;
-  background-image:  radial-gradient(rgb(255, 177, 33), rgb(225, 129, 12), rgb(186, 96, 0));
-  padding-bottom: 50px;
+  /* background-color: rgb(215, 246, 216); */
+  padding-bottom: 10px;
 }
 
 .work-container {
@@ -591,19 +694,17 @@ h2 {
 }
 
 .work {
-  margin: 3em auto;
+  margin: 1.5em auto;
 }
 
 
 .work-box-grid-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* background-color: burlywood; */
   width: 95%;
   height: 95%;
   padding: 0;
-  padding-left: 7em;
-  margin: auto;
+  align-content: center;
 }
 
 .work-1 {
@@ -612,17 +713,22 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 20px auto;
-  padding: 20px;
-  margin: 20px;
   align-items: center;
   box-shadow: 0 0 9px 1px rgb(132, 211, 177);
-  background-color: rgb(162, 228, 202);
+  background-color: rgb(228, 205, 162);
   border-radius: 12px;
   text-align: center;
+  display: grid;
+  margin: 20px auto;
+  overflow: scroll;
 }
 
-.work2 {
+.work-title, .work-description {
+  color: black;
+  padding: 5px;
+}
+
+/* .work2 {
   background-color: rgb(113, 124, 114);
 }
 
@@ -664,23 +770,27 @@ h2 {
 
 .work12 {
   background-color: rgb(162, 105, 58);
-}
+} */
 
 
 
-.work-1 .work-description, .work-title {
+/* .work-1 .work-description, .work-title {
   opacity: 0.03;
 
-}
+} */
 
 .work-1:hover  .work-description,
 .work-1:hover .work-title {
  opacity: 1;
+
 }
 
 .work-1:hover {
-  transform: scale(1.09);
+  color: white;
+  transform: scale(1.1);
  transform: skewY(20%);
+ transform: initial scaleX();
+ transition: 1s ease-in-out;
 }
 
 
@@ -755,6 +865,22 @@ h2 {
   opacity: 1;
 } */
 
+
+.opacity1 {
+  opacity: 0.3;
+}
+
+.opacity4 {
+  opacity: 0.5;
+}
+
+.opacity2 {
+  opacity: 0.6;
+}
+
+.opacity3 {
+  opacity: 0.9;
+}
 
 
 
@@ -890,6 +1016,9 @@ form {
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
+    font-size: 17px;
+    font-family: Courier;
+
   }
 
 
@@ -904,7 +1033,7 @@ form {
   flex-direction: column;
   width: 100%;
   padding: 0;
-  padding-top: 6rem;
+  padding-top: 1em;
   margin: 0;
   height: auto;
   align-items: center;
@@ -912,7 +1041,7 @@ form {
 
 
  .about-me{
-  font-size: 37px;
+  font-size: 45px;
   margin-top: 40px;
 }
 
@@ -921,11 +1050,11 @@ form {
   flex-direction: column;
   justify-content: space-evenly;
   /* gap: 20%; */
-  margin: 80px 10px;
+  margin: 80px 0px;
   margin-top: 5em;
-  width: 100%;
-  font-size: 17px;
+  width: 90%;
 }
+
 
 .lower-profile {
   width: 200px;
@@ -940,7 +1069,7 @@ form {
   width: 100%;
   height: 500px;
   padding: 10px;
-  font-size: 26px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -952,33 +1081,33 @@ form {
 .describe {
   width: 90%;
   padding: 10px;
-  height: 300px;
   overflow: hidden;
-  height: 500px;
   padding: 15px;
-  font-size: 24px;
+  font-size: 15px;
   text-align: center;
   margin: auto;
-  margin-top: 80px;
-  line-height: 35px;
+  margin-top: 10px;
+  line-height: 30px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
-  height: 400px;
+  height: fit-content;
 }
 
 .icon-section-2 {
   width: 100%;
   float: right;
   width: 430px;
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 .render-2 {
   float: right;
   bottom: 0;
   position: fixed;
-  margin: 0 90px 30px 93%;
+  margin-left: 80%;
+  font-size: 40px;
+  z-index: 1;
 }
 
 
@@ -986,164 +1115,79 @@ form {
 
 /* .....RESUME SECTION..... */
 
+
 .resume-section {
-  
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 10em auto;
-  padding: 30px 10px;
+  height: 50%;
+  /* background-color: rgb(59, 190, 64); */
+  margin: auto;
+  padding: 3em 30px;
   box-sizing: border-box;
+}
+
+
+.lines-line {
+  width: 100px;
+  height: 85.5%;
+  margin: auto;
   box-sizing: border-box;
-  align-items: center;
+  /* background-color: cornflowerblue; */
+  /* margin: auto; */
+  float: left;
+  margin-left: -55px;
+  position: absolute;
 }
 
-.three-3, .five-5, .four4 {
-  background-color: rgb(83, 195, 178);
-  color: black;
-  font-size: 15px;
-  padding: 15px;
-  height: 600px;
-  margin: auto;
-  border-radius: 15px;
-  /* margin: 50px 0; */
-  box-shadow: 0 0 5px -1px;
-  box-sizing: border-box;
-  min-width: 200px;
-  min-height: 200px;
+.education {
+  margin-top: 2em;
 }
 
-.two-2 {
-  width: 100%;
-  height: 300px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-
-.six-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-direction: column;
-  margin: auto;
-  align-items: center;
-  margin-top: 15em;
-  height: 80px;
-}
-
-.left-two {
-  height: 330px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.more-experience {
-  font-size: 20px;
-  z-index: 2;
-  padding: 5px;
-  margin: auto;
-  width: 180px;
-  border-radius: 12px;
+.education span {
+  background-color: gray;
   color: white;
 }
 
-.hidden {
+.shorter {
+  height: 10%;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rsm2 {
   display: none;
 }
 
-.more-experience {
-  font-size: 20px;
-  /* z-index: 2; */
-  padding: 5px;
-  margin: auto;
-  width: 180px;
+.rsm-content {
+  width: 200px;
+  background-color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  box-shadow: 0 0 7px -2px;
+  cursor: pointer;
 }
 
-.round-shape-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 30px;
-  margin-bottom: 50px;
-  margin: 0 40px;
-  position: relative;
-}
-
-.round-shape-1 hr {
-  rotate: 90deg;
-  width: 80px;
-  height: .5px;
-  margin: auto;
-}
-
-/*.four4 {
-  margin: auto;
-  align-items: center;
-  width: 85%;
-  margin: 50px;
-  height: 200px;
-  align-items: center;
-  background-color: chocolate;
-  box-shadow: 0 0 8px -1px;
-} 
-
-.six-one {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  background-color: blueviolet;
-  margin: auto;
-  align-items: center;
-  margin-left: -13%;
-  height: auto;
+/* .rsm-content:hover {
+  border-color: rgb(29, 170, 189);
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+  margin-top: 50px;
+  margin-left: 60px;
 } */
 
-.three-3, .five-5, .four4 {
-  min-width: 400px;
-  padding: 15px;
-  border-radius: 15px;
-  margin: 50px 0;
-  width: 75%;
-  margin: 50px auto;
-  background-color: aliceblue;
-  overflow-x: hidden;
-  color: black;
-}
-
-.dont {
-  display: unset;
-}
-
-.margin {
-  margin-top: 5em;
-}
+/* .invisible {
+  display: none;
+} */
 
 
 
-/* <!-- .....EDUCATION SECTION..... --> */
 
 
 
-.service-section {
-  background-image: radial-gradient(rgb(255, 177, 33), rgb(225, 129, 12), rgb(186, 96, 0));
-  height: auto;
-  max-width: 100%;
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40em;
-  color: white;
-  font-weight: 600;
-  font-size: 18px;
-}
 
 
 
@@ -1151,11 +1195,31 @@ form {
 /* <!-- .....SERVICES SECTION..... --> */
 
 
+.service-section {
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgb(222, 255, 244);
+}
+
+.my--services {
+  background-color: rgb(222, 255, 244);
+}
 
 .service-grid-container {
+  background-color: rgb(222, 255, 244);
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 95%;
   padding-left: 37px;
   margin: auto;
   align-items: center;
@@ -1166,7 +1230,9 @@ form {
   width: 90%;
   height: 220px;
   padding: 10px ;
-  margin: 40px auto;
+  font-size: 18px;
+  color: black;
+  margin: 30px auto;
   border-radius: 12px;
   text-align: center;
   display: flex;
@@ -1174,8 +1240,13 @@ form {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  background-color: rgb(165, 136, 28);
-  box-shadow: 0 0 8px 1px;
+  background-color: rgb(208, 255, 239);
+  overflow: hidden;
+  box-shadow: 0 0 6px -1px rgb(72, 92, 86);
+}
+
+.service-title, .service-description {
+  color: black;
 }
 
 .change-icon-size {
@@ -1197,7 +1268,7 @@ form {
   flex-direction: column;
   background-color: rgb(222, 255, 244);
   align-items: center;
-  padding-top: 10em;
+  padding-top: 3em;
   margin: 0;
 }
 
@@ -1229,14 +1300,14 @@ form {
 
 
 .horizontal-line-section {
-  height: 70%;
+  height: 70vh;
   width: 100%;
   margin-top: 5em;
   margin: auto;
   padding: 0;
   margin-bottom: 0;
   background-color: aliceblue;
-  padding-bottom: 5em;
+  padding-bottom: 35em;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1273,10 +1344,13 @@ form {
   width: 100%;
   background-image:  radial-gradient(rgb(255, 177, 33), rgb(225, 129, 12), rgb(186, 96, 0));
   padding-bottom: 50px;
+  color: white;
 }
 
 .work {
   margin: 1em auto;
+  color: white;
+  text-shadow: 2px 2px 10px;
 }
 
 .work-box-grid-container{
@@ -1287,7 +1361,7 @@ form {
   padding: 0;
   padding-left: 7em;
   margin: auto;
-  align-items: center;
+  align-items: center;color: white;
 }
 
 
@@ -1301,15 +1375,17 @@ form {
   padding: 20px;
   align-items: center;
   box-shadow: 0 0 9px 1px rgb(132, 211, 177);
-  background-color: rgb(108, 105, 74);
+  background-color: rgb(143, 106, 20);
   border-radius: 12px;
   text-align: center;
   margin-left: -10%;
-  margin-right: 35%;
   color: white;
+  margin-right: 35%;
 }
 
-
+.work-title, .work-description {
+  color: white;
+}
 
 
 /* .....POSTS..... */
@@ -1320,7 +1396,7 @@ form {
   /* padding: 50px; */
   background-color: rgb(238, 255, 249);
   margin-top: 0;
-  padding-top: 5em;
+  padding-top: 4em;
 }
 
 .post-top {
@@ -1364,7 +1440,6 @@ form {
   width: 205PX;
   height: 250PX;
   background-color: rgb(198, 222, 243);
-  margin: 15PX;
   border-radius: 15PX;
   display: flex;
   flex-direction: column;
@@ -1373,6 +1448,8 @@ form {
   box-sizing: border-box;
   box-shadow: 0 0 5px -1px;
   text-align: center;
+  display: grid;
+  align-content: center;
 }
 
 .under-post-container {
